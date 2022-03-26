@@ -1,0 +1,38 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --accent-color: blue;
+  display: grid;
+}
+
+a#FAL {
+  justify-self: center;
+  align-self: center;
+  background-color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+a#FAL i {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  padding-right: 0.5rem;
+  border-right: solid var(--secondary-color) 1px;
+  color: var(--secondary-color);
+}
+a#FAL:hover{
+  
+  background-color: orange;
+}
+a#FAL:active{
+  transform: scale(1.1);
+  opacity: .5;
+}
+
+
